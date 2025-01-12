@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="orange">
+    <h1 align="center">STUDENT REGISTRATION FORM</h1>
+    <br><br>
+    <form  action="submit.html" method="get" >
+        <table cellpadding="10" cellspacing="10" align="center">
+            <tr>
+                <td><label>FIRST NAME:</label></td>
+                <td>
+                    <input type="text" name="fname" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>LAST NAME:</label></td>
+                <td>
+                    <input type="text" name="lname" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>DATE OF BIRTH:</label></td>
+                <td>
+                    <input type="date" name="dob" style="background-color:rgb(185, 232, 248);">
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>EMAIL ID:</label></td>
+                <td>
+                    <input type="email" name="email" style="background-color:rgb(185, 232, 248);">
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>MOBILE NUMBER:</label></td>
+                <td>
+                    <input type="number" name="mobile" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(10 digit number)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>GENDER:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>ADDRESS:</label></td>
+                <td>
+                    <textarea name="address" style="background-color:rgb(185, 232, 248);"></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>CITY:</label></td>
+                <td>
+                    <input type="text" name="city" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>PINCODE:</label></td>
+                <td>
+                    <input type="text" name="pincode" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(6 digit number)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>STATE:</label></td>
+                <td>
+                    <input type="text" name="state" style="background-color:rgb(185, 232, 248);">
+                    &nbsp;&nbsp;(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>COUNTRY:</label></td>
+                <td>
+                    <select name="country" style="background-color:rgb(185, 232, 248); width: 175px;">
+                        <option value="">Select a country</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="australia">Australia</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="canada">Canada</option>
+                        <option value="china">China</option>
+                        <option value="india">India</option>
+                        <option value="japan">Japan</option>
+                        <option value="malaysia">Malaysia</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="singapore">Singapore</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="usa">United States</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>HOBBIES:</label></td>
+                <td>
+                    <input type="radio" name="hobby" value="drawing"> Drawing
+                    <input type="radio" name="hobby" value="singing"> Singing
+                    <input type="radio" name="hobby" value="dancing"> Dancing
+                    <input type="radio" name="hobby" value="sketching"> Sketching
+                    <input type="radio" name="hobby" value="others"> Others
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>QUALIFICATION:</label></td>
+                <td>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <th>Sl.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="board1"></td>
+                            <td><input type="text" name="percentage1"></td>
+                            <td><input type="text" name="year1"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="board2"></td>
+                            <td><input type="text" name="percentage2"></td>
+                            <td><input type="text" name="year2"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="board3"></td>
+                            <td><input type="text" name="percentage3"></td>
+                            <td><input type="text" name="year3"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="board4"></td>
+                            <td><input type="text" name="percentage4"></td>
+                            <td><input type="text" name="year4"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>COURSES APPLIED FOR:</label></td>
+                <td>
+                    <input type="radio" name="course" value="bca"> BCA
+                    <input type="radio" name="course" value="bcom"> B.Com
+                    <input type="radio" name="course" value="bsc"> B.Sc
+                    <input type="radio" name="course" value="ba"> B.A
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

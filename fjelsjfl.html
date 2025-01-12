@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Tutorials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+        .main-content {
+            display: flex;
+            padding: 1em;
+        }
+        article {
+            flex: 2;
+            padding-right: 1em;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 1em;
+        }
+        section {
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 1em;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Development Tutorials</h1>
+        <p>Learn HTML, CSS, and JavaScript from Scratch</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#html-basics">HTML Basics</a></li>
+            <li><a href="#css-fundamentals">CSS Fundamentals</a></li>
+            <li><a href="#javascript-intro">JavaScript Intro</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <article>
+            <section id="home">
+                <h2>Welcome to Web Development Tutorials</h2>
+                <p>Our comprehensive tutorials will guide you through the fundamentals of web development. Whether you're a complete beginner or looking to refresh your skills, we have resources for everyone.</p>
+            </section>
+
+            <section id="blog">
+                <h2>Latest Blog Posts</h2>
+                <div class="blog-post">
+                    <h3>Getting Started with HTML5</h3>
+                    <img src="/api/placeholder/300/200" alt="HTML5 Logo">
+                    <p>Learn about the latest features in HTML5...</p>
+                    <a href="#read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <h3>CSS Grid vs Flexbox</h3>
+                    <img src="/api/placeholder/300/200" alt="CSS Layout">
+                    <p>Understanding modern CSS layout systems...</p>
+                    <a href="#read-more">Read More</a>
+                </div>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#tutorials">Latest Tutorials</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+
+            <h3>Featured Content</h3>
+            <p>Check out our most popular tutorial series on responsive web design!</p>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="contact-form" id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+        <p>&copy; 2025 Web Development Tutorials. All rights reserved.</p>
+    </footer>
+</body>
+</html>
